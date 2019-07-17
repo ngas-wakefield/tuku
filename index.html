@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+@import url("styles.css");
+</style>
+<body>
+
+<p>Type anything in the field below</p>
+
+<input type="text" id="myInput" oninput="myFunction()">
+
+<p class="fontchange"id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput").value;
+  document.getElementById("demo").innerHTML = " " + x;
+}
+</script>
+
+</body>
+</html>

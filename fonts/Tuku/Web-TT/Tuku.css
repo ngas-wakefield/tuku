@@ -1,0 +1,11 @@
+/* Webfont: Tuku */@font-face {
+    font-family: 'Tuku';
+    src: url('Tuku.eot'); /* IE9 Compat Modes */
+    src: url('Tuku.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Tuku.woff') format('woff'), /* Modern Browsers */
+         url('Tuku.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
