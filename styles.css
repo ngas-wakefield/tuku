@@ -12,18 +12,8 @@
 }
 
 .fontchange {
-font-size: 500px;
+font-size: 100px;
 	font-family: 'Tuku';
 }
-div.a {
-  font-size: 15px;
-}
 
-div.b {
-  font-size: large;
-}
-
-div.c {
-  font-size: 150%;
-}
 
