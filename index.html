@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-<html>
-<style type="text/css">
-@import url("styles.css");
-</style>
-<body>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
 
-<p>Type anything in the field below</p>
+<div class="font-size"><p>Type in Māori in the box below and adjust slider for size</p>
+  <p> for patterns use < > 1 2 3 4 5 6 7 8 9 <output for="fader" id="fontsize"></output></div>
+  <div class="slidecontainer">
+    
+<input type="text" id="myInput" value="tuku" oninput="myFunction()">
+<input class="none" type="range" min="0" max="1000" value="0" id="fader" step="1" >
 
-<input type="text" id="myInput" oninput="myFunction()">
 
-<p class="fontchange"id="demo"></p>
+<text id="v-28" class="fontchange" y="0.8em" fill="white" stroke="black" stroke-width="0" transform="translate(35,20.5) ">tuku</text>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myInput").value;
-  document.getElementById("demo").innerHTML = " " + x;
-}
-</script>
-
-</body>
-</html>
+        
