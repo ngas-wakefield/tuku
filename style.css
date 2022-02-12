@@ -7,10 +7,13 @@
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
+    
+    
 }
 
 .fontchange {
 	font-family: 'Tuku';
+  line-height: 72.1%;
 	
 }
 
